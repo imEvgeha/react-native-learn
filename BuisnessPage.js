@@ -81,7 +81,6 @@ export default ({ history }) => {
           )
         })}
       </View>
-      {/* <Text style={{textAlign: 'center'}}>List</Text> */}
       <View style={styles.buttonContainer}>
         <Button title={'Change page'} onPress={() => history.push('/')} />
       </View>
